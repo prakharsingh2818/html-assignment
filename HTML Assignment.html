@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>HTML Assignment</title>
+<link rel="stylesheet" href="styles/styles.css">
+</head>
+
+<body>
+<!-- This is the header of the page which consists of w3school logo and heading -->
+<div class="heading">
+	<img id="heading-image" alt="w3Schools Logo" src="https://upload.wikimedia.org/wikipedia/commons/3/3e/W3Schools_logo.png" />
+    <p id="heading-text">THE WORLD'S LARGEST WEB DEVELOPER SITE</p>
+</div>
+<!-- Section ends -->
+
+<!-- This is the navigation bar which consists of 4 navigational links -->
+<div class="navbar">
+      <nav>
+        <a href="https://www.w3schools.com/html/">HTML</a>
+        <a href="https://www.w3schools.com/w3css/defaulT.asp">CSS</a>
+        <a href="https://www.w3schools.com/js/DEFAULT.asp">JAVASCRIPT</a>
+        <a href="https://www.w3schools.com/python/">PYTHON</a>
+      </nav>
+    </div>
+    <!-- Section ends -->
+
+    <!-- This section consists of html introduction part -->
+	<div>
+      <h1>HTML Introduction</h1>
+      <p>HTML is the standard markup language for creating Web pages.</p>
+      <ol>
+        <li><a href="#WhatIsHtml">What is HTML</a></li>
+        <li><a href="#HtmlElement">What is HTML element</a></li>
+        <li><a href="#WebBrowsers">Web Browsers</a></li>
+      </ol>
+    </div>
+    <!-- Section ends -->
+    
+    
+    <!-- This section explains what is html -->
+    <div>
+      <h2 id="WhatIsHtml">What is HTML?</h2>
+      <ul>
+        <li>HTML stands for Hyper Text Markup Language</li>
+        <li>HTML is the standard markup language for creating Web pages</li>
+        <li>HTML describes the structure of a Web page</li>
+        <li>HTML consists of a series of elements</li>
+        <li>HTML elements tell the browser how to display the content</li>
+        <li>HTML elements label pieces of content such as "this is a heading", "this 
+        is a paragraph", "this is a link", etc.</li>
+      </ul>
+   	<!-- Section ends -->
+   	
+   	<!-- This section explains what is html elements -->  
+   	<div>
+    	<h2 id="HtmlElement">What is an HTML Element?</h2>
+      	<p>An HTML element is defined by a start tag, some content, and an end tag:</p>
+      	<div class="tags">
+      		<span class="tags-sign">&lt</span><span class = "tags-desc">tagname</span><span class="tags-sign">&gt</span>
+      		Content goes here...
+      		<span class="tags-sign">&lt</span><span class = "tags-desc">/tagname</span><span class="tags-sign">&gt</span>
+      	</div>	
+     </div>
+     The HTML element is everything from the start tag to the end tag:
+    <div class="tags">
+    	<span class="tags-sign">&lt</span><span class = "tags-desc">h1</span><span class="tags-sign">&gt</span>
+      	My First Heading
+      	<span class="tags-sign">&lt</span><span class = "tags-desc">/h1</span><span class="tags-sign">&gt</span>
+    </div>
+    <div class="tags">
+    	<span class="tags-sign">&lt</span><span class = "tags-desc">p</span><span class="tags-sign">&gt</span>
+      	My first paragraph.
+      	<span class="tags-sign">&lt</span><span class = "tags-desc">/p</span><span class="tags-sign">&gt</span>
+    </div>
+    
+    
+    <table class="table-style">
+        <tbody>
+          <tr>
+            <th>Start tag</th>
+            <th>Element content</th>
+            <th>End tag</th>
+          </tr>
+          <tr>
+            <td>&lt;h1&gt;</td>
+            <td>My First Heading</td>
+            <td>&lt;/h1&gt;</td>
+          </tr>
+          <tr>
+            <td>&lt;p&gt;</td>
+            <td>My first paragraph.</td>
+            <td>&lt;/p&gt;</td>
+          </tr>
+          <tr>
+            <td>&lt;br&gt;</td>
+            <td><em>none</em></td>
+            <td><em>none</em></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <!-- Section ends -->
+    
+    
+    <!-- This section explains about web browsers -->
+    <div>
+      <h2 id="WebBrowsers">Web Browsers</h2>
+      <p>The purpose of a web browser (Chrome, Edge, Firefox, Safari) is to read HTML documents and display them 
+      correctly.</p>
+      <p>A browser does not display the HTML tags, but uses them to determine how to display the document:</p>
+      <p><img class="browser-run" alt="View in Browser" src="https://www.w3schools.com/html/img_chrome.png"></p>
+    </div>
+    <!-- Section ends -->
+    
+    <!-- This section is used to get a review -->
+    <div>
+      <h2>Submit a review</h2>
+      <form action="Dummy.html" method="post">
+        Name: 
+        <input type="text" name="name">
+        <input type="radio" name="gender">Male
+        <input type="radio" name="gender">Female
+        <input type="radio" name="gender">Other
+        <br/><br/>
+        Rate it:
+        <select name="rating">
+          <option>Very good</option>
+          <option>Good</option>
+          <option>Average</option>
+          <option>Bad</option>
+          <option>Very bad</option>
+        </select>
+        <br/>
+        <textarea name="review" rows="10" cols="30" placeholder="Please add a review."></textarea>
+        <br/>
+        <button id="submitButton" type="Submit">Submit</button>
+      </form>
+    </div>
+    <!-- Section ends -->
+    
+</body>
+</html>
